@@ -1,6 +1,3 @@
-
-
-
 resource "azurerm_key_vault" "keyvault" {
   name                        = var.keyvault-name
   resource_group_name         = var.RG-Name
