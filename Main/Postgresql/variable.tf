@@ -45,7 +45,9 @@ variable "sku_name" {
 variable "key_vault_secret_permissions" {
   description = "Permissions for Key Vault secrets"
   type        = list(string)
+  default     = ["get", "list", "set", "delete", "purge"]
 }
+
 
 variable "secret-name" {
   description = "Name of the Key Vault secret"
