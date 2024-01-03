@@ -14,6 +14,7 @@ inputs = {
   azurerm_linux_web_app_name = "staging-webapp"
   azurerm_service_plan-sku_name = "B3"
   resource_group_location = "Central US"
+  key_vault_secret_permissions = ["Get", "List", "Set", "Delete", "Recover"]
 }
 
 
